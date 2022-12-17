@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a disabled button correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-primary "
+    disabled=""
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renders a secondary button correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-secondary "
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renders an abled, contained, primary (default) button correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-primary "
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`renders an outlined button correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-outline-primary "
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
